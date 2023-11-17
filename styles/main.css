@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/horizontal-view-fresh-delicious-juice-glass-with-orange-lime-tube-dark-background_140725-140821.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  color: #fff;
+}
+
+.container-b {
+  height: 100vh;
+}
+
+.buyurtma {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+  transition: all 0.5s;
+}
+.transform {
+  transform: translateY(-200%);
+}
+.burger {
+  /* position: fixed; */
+  width: 400px;
+  bottom: 50px;
+}
+img {
+  position: relative;
+  margin: -15px 0;
+  max-width: 100%;
+}
+
+.tomato {
+  transform: rotateX(-50deg);
+  margin: -70px 0;
+}
+
+.cucumber {
+  margin: -180px 0;
+  transform: rotateX(-70deg);
+}
+
+.meat {
+  transform: rotateX(-60deg);
+  margin: -100px 0;
+}
+
+.salad {
+  margin: -190px 0;
+  transform: rotateX(-60deg);
+}
+
+.onion {
+  transform: rotateX(75deg);
+  margin: -180px 0;
+}
+
+.cheese {
+  margin: -20px 0;
+}
+
+.bread-top {
+  transform: rotateX(-30deg);
+  margin: -30px 0;
+}
+.bread-bottom {
+  transform: rotateX(-50deg);
+  margin: -30px 0;
+}
+
+#reset {
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 0.5rem 0;
+  color: #fff;
+  background-color: black;
+}
